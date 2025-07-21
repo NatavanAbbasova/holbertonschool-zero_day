@@ -1,3 +1,11 @@
-#!/bin/bash
-echo "School"
-echo "Best School"
+#!/bon/bash
+echo "The school is open!" >> bash/school
+git push -u origin update_script
+pwd
+git push -u origin update_script
+rm -r js
+git add .
+git commit -m "Hot fix"
+git push
+git checkout main
+echo echo The school is open!
